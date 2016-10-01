@@ -1,0 +1,239 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic);
+
+/* Reset CSS */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+body {
+    line-height:1;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+nav ul {
+    list-style:none;
+}
+blockquote, q {
+    quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+del {
+    text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    padding:0;
+}
+input, select {
+    vertical-align:middle;
+}
+
+
+
+
+/* General CSS */
+
+body {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	color: #85989E;
+	letter-spacing: 1px;
+}
+
+::selection { background: #2F4255; color: #fff; }
+
+::-moz-selection { background: #2F4255; color: #ffffff; }
+
+p { font-family: 'Open Sans Condensed', sans-serif; font-size: 20px; line-height: 28px; margin-bottom: 15px; }
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Open Sans Condensed', sans-serif; font-weight: 700; color: #2F4255; }
+
+h1 { font-size: 54px; line-height: 60px; }
+
+h2 { font-size: 26px; line-height: 38px; }
+
+h3 { font-size: 22px; line-height: 34px; }
+
+h4 { font-size: 20px; line-height: 30px; }
+
+h5 { font-size: 18px; line-height: 28px; }
+
+h6 { font-size: 16px; line-height: 26px; }
+
+strong { font-weight: 700; }
+
+.uppercase { text-transform: uppercase; }
+
+i { margin-right: 4px; }
+
+img { width: 100%; height: auto; }
+
+hr { margin: 80px 0 30px 0; border-top: 1px dotted #cccccc; }
+
+ul { list-style: none; }
+
+ul, ol { margin-bottom: 15px; line-height: 24px; }
+
+.page-sections ul li, .page-sections ol li { margin-bottom: 6px; }
+
+ol li { margin-left: 25px; }
+
+.highlight-color { color: #283848; }
+
+.alert { line-height: 25px; }
+
+.alert.alert-danger a { color: #731111; }
+
+.alert.alert-info a { color: #225268; }
+
+pre { font-family: Tahoma, Geneva, sans-serif; font-size: 14px; line-height: 24px; margin-bottom: 15px; padding: 10px 14px; background: #DDE4EC; color: #7895B4; }
+
+
+
+
+/* Page CSS */
+
+.header {
+	background: #283848;
+	width: 280px;
+	text-align: center;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	z-index: 100;
+}
+
+.project-name {
+	text-transform: uppercase;
+	padding: 50px 0;
+}
+
+.project-name h1 {
+	color: #1ABC9C;
+}
+
+.project-name span {
+	color: #3C556F;
+}
+
+.header nav {
+	text-align: left;
+}
+
+.header nav li:first-child a {
+	border-top: 2px solid rgba(0,0,0,.06);
+}
+
+.header nav li a {
+	padding: 10px 20px;
+	display: block;
+	color: #fff;
+	font-size: 18px;
+	border-bottom: 2px solid rgba(0,0,0,.06);
+}
+
+.header nav li a:hover {
+	color: #283848;
+	background: #1ABC9C;
+}
+
+.header nav li.current a {
+	color: #283848;
+	background: #fff;
+}
+
+.page-sections {
+	padding-left: 300px;
+	padding: 60px 70px 60px 340px; 
+}
+
+.page-sections h1, .page-sections h2, .page-sections h3, .page-sections h4 {
+	margin-bottom: 10px;
+}
+
+.title {
+	margin-bottom: 25px;
+	text-transform: uppercase;
+	padding-top: 3em;
+}
+
+.copyright {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	padding: 20px 70px 20px 340px;
+	background: #fff;
+	z-index: 99;
+	color: #283848;
+	font-size: 16px;
+}
+
+.show-grid {
+    border: 1px solid #e2e2e2;
+    margin-bottom:  20px;
+}
+
+.show-grid > div {
+    padding:  25px 0;
+    text-align:  center;
+    border-left:  1px solid #e2e2e2;
+}
+
+.show-grid > div:first-child {
+    border-left:  0;
+}
