@@ -21,16 +21,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file leaf-file-name="preview.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/preview.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
               <caret line="199" column="0" selection-start-line="199" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
+=======
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="121" column="46" selection-start-line="121" selection-start-column="46" selection-end-line="121" selection-end-column="46" />
+              <folding>
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1475319780000" expanded="false" signature="6076:6137" ph="..." />
+                <marker date="1475319780000" expanded="false" signature="6865:6884" ph="..." />
+                <marker date="1475319780000" expanded="false" signature="7684:7703" ph="..." />
+                <marker date="1475319780000" expanded="true" signature="8450:9246" ph="..." />
+                <marker date="1475319780000" expanded="false" signature="8606:8694" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="icons.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/icons.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="9589" column="10" selection-start-line="9589" selection-start-column="1" selection-end-line="9589" selection-end-column="10" />
+>>>>>>> 9a5a27df6dac0902e51ad77a1d7ff5f6060d3c6c
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -45,12 +72,41 @@
                 <marker date="1475322370000" expanded="true" signature="7580:8179" ph="..." />
                 <marker date="1475322370000" expanded="false" signature="7713:7801" ph="..." />
               </folding>
+=======
+      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="10" column="8897" selection-start-line="10" selection-start-column="8888" selection-end-line="10" selection-end-column="8897" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chrome-orange.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/colors/chrome-orange.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="142" column="12" selection-start-line="142" selection-start-column="1" selection-end-line="142" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="2365" column="20" selection-start-line="2365" selection-start-column="17" selection-end-line="2365" selection-end-column="20" />
+              <folding />
+>>>>>>> 9a5a27df6dac0902e51ad77a1d7ff5f6060d3c6c
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+<<<<<<< HEAD
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -58,6 +114,8 @@
       </list>
     </option>
   </component>
+=======
+>>>>>>> 9a5a27df6dac0902e51ad77a1d7ff5f6060d3c6c
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -68,9 +126,12 @@
         <option value="$PROJECT_DIR$/header3-light.html" />
         <option value="$PROJECT_DIR$/css/icons.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/css/preview.html" />
         <option value="$PROJECT_DIR$/twitter/preview.html" />
         <option value="$PROJECT_DIR$/preview.html" />
+=======
+>>>>>>> 9a5a27df6dac0902e51ad77a1d7ff5f6060d3c6c
         <option value="$PROJECT_DIR$/home.html" />
       </list>
     </option>
@@ -138,7 +199,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="twitter" />
+=======
+              <option name="myItemId" value="images" />
+>>>>>>> 9a5a27df6dac0902e51ad77a1d7ff5f6060d3c6c
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -152,7 +217,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="js" />
+=======
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="overlays" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="relway-html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="relway-html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icons" />
+>>>>>>> 9a5a27df6dac0902e51ad77a1d7ff5f6060d3c6c
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -170,6 +261,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+<<<<<<< HEAD
+=======
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="relway-html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="relway-html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="relway-html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="relway-html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+>>>>>>> 9a5a27df6dac0902e51ad77a1d7ff5f6060d3c6c
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -185,7 +311,10 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="SearchEverywhereHistoryKey" value="col-xs-12&#9;null&#9;null&#10;service-box&#9;null&#9;null&#10;icon-keyboard6&#9;null&#9;null&#10;icon-leaf3&#9;null&#9;null&#10;text-slider&#9;null&#9;null" />
     <property name="FullScreen" value="true" />
+<<<<<<< HEAD
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+=======
+>>>>>>> 9a5a27df6dac0902e51ad77a1d7ff5f6060d3c6c
   </component>
   <component name="RunManager" selected="JavaScript Debug.index2.html">
     <configuration default="false" name="index2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/relway-html/index2.html">
@@ -267,12 +396,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1475301580883</updated>
+<<<<<<< HEAD
       <workItem from="1475301582210" duration="12210000" />
+=======
+      <workItem from="1475301582210" duration="11073000" />
+>>>>>>> 9a5a27df6dac0902e51ad77a1d7ff5f6060d3c6c
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="12210000" />
+=======
+    <option name="totallyTimeSpent" value="11073000" />
+>>>>>>> 9a5a27df6dac0902e51ad77a1d7ff5f6060d3c6c
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -415,6 +552,17 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 9a5a27df6dac0902e51ad77a1d7ff5f6060d3c6c
     <entry file="file://$PROJECT_DIR$/index4.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-195">
@@ -499,6 +647,17 @@
         <state />
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2370">
+          <caret line="96" column="35" selection-start-line="96" selection-start-column="27" selection-end-line="96" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 9a5a27df6dac0902e51ad77a1d7ff5f6060d3c6c
     <entry file="file://$PROJECT_DIR$/images/favicon.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -589,6 +748,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/css/preview.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -627,14 +787,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="126" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="993" selection-end-column="7" />
+=======
+    <entry file="file://$PROJECT_DIR$/css/colors/chrome-orange.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="142" column="12" selection-start-line="142" selection-start-column="1" selection-end-line="142" selection-end-column="12" />
+>>>>>>> 9a5a27df6dac0902e51ad77a1d7ff5f6060d3c6c
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/css/icons.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="9589" column="10" selection-start-line="9589" selection-start-column="1" selection-end-line="9589" selection-end-column="10" />
+=======
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="2365" column="20" selection-start-line="2365" selection-start-column="17" selection-end-line="2365" selection-end-column="20" />
+>>>>>>> 9a5a27df6dac0902e51ad77a1d7ff5f6060d3c6c
           <folding />
         </state>
       </provider>
@@ -647,6 +820,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/css/colors/chrome-orange.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -667,12 +841,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="199" column="0" selection-start-line="199" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/css/icons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="9589" column="10" selection-start-line="9589" selection-start-column="1" selection-end-line="9589" selection-end-column="10" />
+>>>>>>> 9a5a27df6dac0902e51ad77a1d7ff5f6060d3c6c
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-1290">
           <caret line="112" column="4" selection-start-line="112" selection-start-column="4" selection-end-line="112" selection-end-column="4" />
           <folding>
@@ -683,6 +864,18 @@
             <marker date="1475322370000" expanded="false" signature="7002:7021" ph="..." />
             <marker date="1475322370000" expanded="true" signature="7580:8179" ph="..." />
             <marker date="1475322370000" expanded="false" signature="7713:7801" ph="..." />
+=======
+        <state relative-caret-position="255">
+          <caret line="121" column="46" selection-start-line="121" selection-start-column="46" selection-end-line="121" selection-end-column="46" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1475319780000" expanded="false" signature="6076:6137" ph="..." />
+            <marker date="1475319780000" expanded="false" signature="6865:6884" ph="..." />
+            <marker date="1475319780000" expanded="false" signature="7684:7703" ph="..." />
+            <marker date="1475319780000" expanded="true" signature="8450:9246" ph="..." />
+            <marker date="1475319780000" expanded="false" signature="8606:8694" ph="..." />
+>>>>>>> 9a5a27df6dac0902e51ad77a1d7ff5f6060d3c6c
           </folding>
         </state>
       </provider>
