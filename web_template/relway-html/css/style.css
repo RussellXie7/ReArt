@@ -1349,11 +1349,11 @@ input[type="submit"] {
 }
 
 .section-home .fit-text + p, .section-home .text-slider + p {
-	margin-bottom: 25px;
+	margin-bottom: 0px;
 }
 
 .section-home p + .fit-text, .section-home p + .text-slider {
-    margin-top: 0px;
+    margin-top: 25px;
 }
 
 .section-home .fit-text + a, .section-home .text-slider + a {
