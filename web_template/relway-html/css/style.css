@@ -1370,81 +1370,6 @@ input[type="submit"] {
 	position: relative;
 }
 
-.section-home .home-slider-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 9;
-}
-
-.home-slider-bg .item, .home-slider-bg .owl-wrapper-outer, .home-slider-bg .owl-wrapper, .home-slider-bg .owl-item {
-    width: 100%;
-    height: 100%;
-}
-
-.home-slider-bg .item, .home-slider .item {
-    -webkit-background-size : cover !important;
-	-moz-background-size : cover !important;
-	-o-background-size : cover !important;
-	background-size : cover !important;
-}
-
-.home-slider {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 9;
-}
-
-.section-home .home-slider .container {
-    position: absolute;
-    width: 100%;
-}
-
-.home-slider .item, .home-slider .owl-wrapper-outer, .home-slider .owl-wrapper, .home-slider .owl-item {
-    width: 100%;
-    height: 100%;
-}
-
-.home-slider .owl-pagination {
-    position: absolute;
-    bottom: 15px;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    z-index: 12;
-}
-
-.dark-section .home-slider .owl-pagination .owl-page span {
-    border: 1px solid #fff;
-}
-
-.dark-section .home-slider .owl-pagination .owl-page.active span, .dark-section .home-slider .owl-pagination .owl-page:hover span {
-    background-color: #fff;
-}
-
-.home-slider .owl-buttons div {
-    position: absolute;
-    width: 30%;
-    top: 0;
-    z-index: 1;
-    margin: 0 !important;
-    text-indent: 9999px;
-    overflow: hidden;
-    padding: 0 !important;
-    opacity: 1 !important;
-    filter: Alpha(Opacity=1) !important;
-    border-radius: 0 !important;
-    background-color: transparent !important;
-    transition: opacity 0.3s ease-in-out;
-    -moz-transition: opacity 0.3s ease-in-out;
-    -webkit-transition: opacity 0.3s ease-in-out;
-    -o-transition: opacity 0.3s ease-in-out;
-}
 
 .light-section .home-slider .owl-buttons div {
     cursor:url("../images/icons/mouse-dark.png"), auto!important;
@@ -2903,7 +2828,6 @@ ul.nav-tabs li a i {
 	-webkit-transform: scale(1.1);
 }
 
-
 #main-photo-preview-grid .video-item .portfolio-overlay {
 	position: absolute;
 	top: 0;
@@ -2916,6 +2840,70 @@ ul.nav-tabs li a i {
     -o-transition: all 0.3s ease-in-out;
 	margin: auto;
 }
+
+.style-preview{
+	padding: 0 45px;
+}
+
+.style-preview .item {
+	opacity: 1;
+	filter: Alpha(Opacity=1);
+	transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+}
+
+.style-preview:hover .item {
+	opacity: 0.5;
+	filter: Alpha(Opacity=0.5);
+}
+
+.style-preview:hover .item:hover {
+	opacity: 1;
+	filter: Alpha(Opacity=1);
+}
+
+.style-preview {
+	position: relative;
+}
+
+.style-preview .owl-buttons div {
+	position: absolute;
+	top: 50%;
+	width: 20px;
+	height: 40px;
+	display: block;
+	margin: -20px 0 0 0 !important;
+	padding: 0 !important;
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	border-radius: 0 !important;
+	background: none !important;
+	filter: Alpha(Opacity=0.5) !important;
+	opacity: 0.5 !important;
+	transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+}
+
+.style-preview .owl-buttons div:hover {
+	filter: Alpha(Opacity=1) !important;
+	opacity: 1 !important;
+}
+
+
+.dark-section .style-preview .owl-buttons div.owl-prev {
+	left: 0;
+	background: url(../images/icons/prev.png) no-repeat !important;
+}
+
+.dark-section .style-preview .owl-buttons div.owl-next {
+	right: 0;
+	background: url(../images/icons/next.png) no-repeat !important;
+}
+
 
 /*-------- Project Expander --------*/
 .project-window {

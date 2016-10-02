@@ -401,17 +401,12 @@ jQuery(document).ready(function () {
 	});
     
     
-    //---- Custom Carousel
-    jQuery('.custom-carousel').each(function(){
+    //---- Style Preview Choice
+    jQuery('.style-preview').each(function(){
 		var owl = jQuery(this),
-			itemsNum = jQuery(this).attr('data-appeared-items'),
-			sliderNavigation = jQuery(this).attr('data-navigation');
-			
-		if ( sliderNavigation == 'false' || sliderNavigation == '0' ) {
-			var returnSliderNavigation = false
-		}else {
-			var returnSliderNavigation = true
-		}
+			itemsNum = jQuery(this).attr('data-appeared-items');
+
+
 		if( itemsNum == 1) {
 			var returndeskitemsNum = 1;
 			var desksmallitemsNum = 1;
@@ -435,15 +430,14 @@ jQuery(document).ready(function () {
 		owl.owlCarousel({
 			stopOnHover: true,
 			autoPlay: 6000,
-			navigation : returnSliderNavigation,
+			navigation : true,
 			pagination: false,
 			lazyLoad : true,
 			items : itemsNum,
 			itemsDesktop : [1000,deskitemsNum],
 			itemsDesktopSmall : [900,desksmallitemsNum],
 			itemsTablet: [600,tabletitemsNum],
-			itemsMobile : [479,1],
-			transitionStyle : "goDown",
+			itemsMobile : [479,2],
 			autoHeight: true,
 		});
 	});
