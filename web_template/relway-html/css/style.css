@@ -1336,6 +1336,12 @@ input[type="submit"] {
 	text-transform: uppercase;
 }
 
+.section-home .fit-text #webname {
+	margin-bottom: 5px;
+	display: block;
+	text-transform: none;
+}
+
 .section-home p {
 	letter-spacing: 1px;
 	text-transform: uppercase;
