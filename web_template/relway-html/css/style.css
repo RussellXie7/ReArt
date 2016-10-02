@@ -1724,6 +1724,10 @@ input[type="submit"] {
 	right: 0;
 }
 
+.upl-btn:focus{
+	outline: 0 !important;
+}
+
 /*-------- Numbers Counter --------*/
 .counter {
 	opacity: 0;
