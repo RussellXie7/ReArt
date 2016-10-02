@@ -106,7 +106,9 @@
     <div id="main-photo-preview-grid" class="main-photo-preview-grid" style="width: 60%; position: relative; left: 20%;">
         <!-- Video -->
         <div id="newVideoImage" class="video-item">
-            <div class="video-img"><img src="images/placeholder.png" /></div>
+            <div class="video-img" style="text-align: center">
+                <a href="share.html"><img id="preview-in-large" src="images/placeholder.png" /></a>
+            </div>
         </div>
     </div>
 
@@ -114,30 +116,36 @@
 
 
     <!-- Style Choice   -->
-    <div id="clients" class="section clients-section parallax-section dark-section" style="margin-top: 15px; background: url(http://placehold.it/1920x800/222);">
+    <div id="style" class="section clients-section parallax-section dark-section" style="margin-top: 15px;">
 
         <!-- Overlay -->
         <div class="section-overlay"></div>
-
         <div class="container">
-
             <!-- Multiple Styles -->
             <div class="style-preview clients-logos" data-appeared-items="5" data-navigation="true">
-                <div class="item"><a href=""><img alt="" src="images/style-preview-placeholder.png"/></a></div>
-                <div class="item"><a href=""><img alt="" src="images/style-preview-placeholder.png"/></a></div>
-                <!--<div class="item"><a href=""><img alt="" src="images/style-preview-placeholder.png"/></a></div>-->
-                <!--<div class="item"><a href=""><img alt="" src="images/style-preview-placeholder.png"/></a></div>-->
-                <!--<div class="item"><a href=""><img alt="" src="images/style-preview-placeholder.png"/></a></div>-->
-                <!--<div class="item"><a href=""><img alt="" src="images/style-preview-placeholder.png"/></a></div>-->
-                <!--<div class="item"><a href=""><img alt="" src="images/style-preview-placeholder.png"/></a></div>-->
-                <!--<div class="item"><a href=""><img alt="" src="images/style-preview-placeholder.png"/></a></div>-->
+                <div class="item"><img src="images/style-preview-placeholder.png"/></a></div>
+                <div class="item">
+                    <img src="images/test_chen.png" onclick="updatePreview(this.src)"/>
+                    <script>
+                        function updatePreview(img) {
+                            document.getElementById('preview-in-large').src = img;
+                        }
+                    </script>
+                </div>
+                <div class="item"><img src="images/style-preview-placeholder.png"/></a></div>
+                <div class="item"><img src="images/style-preview-placeholder.png"/></a></div>
+                <div class="item"><img src="images/style-preview-placeholder.png"/></a></div>
+                <div class="item"><img src="images/style-preview-placeholder.png"/></a></div>
+                <div class="item"><img src="images/style-preview-placeholder.png"/></a></div>
+                <div class="item"><img src="images/style-preview-placeholder.png"/></a></div>
             </div>
-
         </div>
-
     </div>
     <!-- End Style Choice -->
 
+    <div id="submitStyle">
+
+    </div>
 
 </div>
 <!-- End Preview -->
