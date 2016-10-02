@@ -602,6 +602,14 @@ input[type="submit"] {
 	color: #444;
 }
 
+/*-------- Loading ----------*/
+#percentage-loader {
+	margin: 20px;
+ 	width: 400px;
+  	height: 8px;
+  	position: relative;
+}
+
 /*-------- Page-Loader --------*/
 #pageloader {
     width: 100%;
