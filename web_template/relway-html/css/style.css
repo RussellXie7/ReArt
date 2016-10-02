@@ -404,7 +404,6 @@ input[type="submit"] {
 	height: 100%;
 	z-index: 10;
 	background: url(../images/overlays/dark.png) repeat rgba(0,0,0,.7);
-	overflow: hidden;
 }
 
 .light-section h1, .light-section h2, .light-section h3, .light-section h4, .light-section h5, .light-section h6 {
@@ -2272,7 +2271,7 @@ ul.nav-tabs li a i {
     letter-spacing: 0;
 	text-transform: uppercase;
 }
-
+ 
 /*-------- Service Box --------*/
 .service-box {
     margin-bottom: 40px;
@@ -2305,15 +2304,15 @@ ul.nav-tabs li a i {
 
 .service-box.style-1 > i {
 	color: #fff;
-	width: 100px;
-	height: 100px;
+	width: 200px;
+	height: 200px;
 	font-size: 32px;
-	line-height: 104px;
+	line-height: 190px;
 	border-radius: 50%;
 	margin-bottom: 10px;
 	position: relative;
 	overflow: hidden;
-	background-color: #ddd;
+	background-color: #FF9900;
 	transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
