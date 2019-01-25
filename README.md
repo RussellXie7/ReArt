@@ -26,11 +26,11 @@ We set up a comprehensive back-end still image stylization service based on the 
 
 ### User Flow:
 
-**Read user input:** When a user uploads a video and chooses a picture style, we will read in the video and style they choose, and we will decide the frame number based on how long we want the output gif file to be.
+* **Read user input:** When a user uploads a video and chooses a picture style, we will read in the video and style they choose, and we will decide the frame number based on how long we want the output gif file to be.
 
-**Transform the video:** We pick up the images based on the frame rate, and then crop the images into the size with the ratio 8.5:11, which is roughly 300px * 388px. Also, we uses advanced compression algorithm to make the image further smaller without losing much of its original quality. Due to the undesirable efficiency of the Neural Network Framework, we came up with several ways to increase our efficiency use multi-parallel subprocess to transform the image simultaneously, and use the resources of the server to its maximum. Because we depend on GPU rather than CPU to have a better performance, we chose the AWS instance that has more GPUs. Because the feature of the Open Source Torch Framework is based on Lua, we manipulate the iteration time on each image to achieve an effect of transition, giving user a feeling of more dynamic stylized images.
+* **Transform the video:** We pick up the images based on the frame rate, and then crop the images into the size with the ratio 8.5:11, which is roughly 300px * 388px. Also, we uses advanced compression algorithm to make the image further smaller without losing much of its original quality. Due to the undesirable efficiency of the Neural Network Framework, we came up with several ways to increase our efficiency use multi-parallel subprocess to transform the image simultaneously, and use the resources of the server to its maximum. Because we depend on GPU rather than CPU to have a better performance, we chose the AWS instance that has more GPUs. Because the feature of the Open Source Torch Framework is based on Lua, we manipulate the iteration time on each image to achieve an effect of transition, giving user a feeling of more dynamic stylized images.
 
-**Output Gif:** We store the image to an array and restructure them to form a gif, which is finally presented to the user.
+* **Output Gif:** We store the image to an array and restructure them to form a gif, which is finally presented to the user.
 
 ### Front-end
 
