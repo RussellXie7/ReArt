@@ -40,6 +40,8 @@ We designed a user-friendly Web App using HTML5, CSS, JavaScript, JQuery to orie
 
 * **Wanze (Russell) Xie** - (https://github.com/russellxie7)
 * **Jianhan Xu** - (https://github.com/Jorx11)
-* **Chen Yang**
+* **Chen Yang** - (https://github.com/azureric)
 * **Zhuojun Chen**
+
+
 
