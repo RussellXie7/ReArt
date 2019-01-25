@@ -1,0 +1,186 @@
+<!doctype html>
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en" class="no-js"> <![endif]-->
+<html lang="en">
+<head>
+
+    <!-- Basic -->
+    <title>Re:Art | Home</title>
+
+    <!-- Define Charset -->
+    <meta charset="utf-8">
+
+    <!-- Responsive MetaTag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Page Description and Author -->
+    <meta name="description" content="Relway - Responsive Parallax One Page Template">
+    <meta name="author" content="ZoOm Arts">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.png">
+
+
+    <!-- Bootstrap CSS Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="screen">
+
+    <!-- Plugins CSS Styles -->
+    <link rel="stylesheet" href="css/plugins.css" type="text/css" media="screen">
+
+    <!-- Relway CSS Styles -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+
+    <!-- Responsive CSS Styles -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen">
+
+    <!-- Css3 Animations Styles -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css" media="screen">
+
+    <!-- Icons Font CSS Styles -->
+    <link rel="stylesheet" type="text/css" href="css/icons.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" media="screen">
+
+    <!-- Color CSS Styles -->
+    <link rel="stylesheet" type="text/css" href="css/colors/chrome-orange.css" media="screen">
+
+    <!-- Custom CSS Styles -->
+    <link rel="stylesheet" type="text/css" href="css/custom.css" media="screen">
+
+
+    <!--[if IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+</head>
+<body>
+
+
+
+
+<!-- Start Header -->
+<header id="header" class="header-2 dark-header">
+
+    <div class="container">
+
+        <!-- Logo -->
+        <div id="logo">
+            <a href="#"><img alt="" src="images/logo/logo-with-name.png"/></a>
+        </div>
+
+        <!-- Toggle Menu - Responsive -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-menu"><i class="icon-menu2"></i></button>
+
+        <!-- Navigation Menu -->
+        <div id="nav-menu" class="nav-menu collapse navbar-collapse">
+            <ul>
+                <li><style type="text/css">  #iconhome {padding: 10px 10px; float:left;}</style>
+                    <i id="iconhome" class="icon-home"></i><a href="home.html#home">Home</a></li>
+                <li><style type="text/css">  #iconhelp {padding: 10px 10px; float:left;}</style>
+                    <i id="iconhelp" class="icon-help"></i><a href="home.html#help">Help</a></li>
+                <li><style type="text/css">  #icondemo {padding: 10px 10px; float:left;}</style>
+                    <i id="icondemo" class="icon-play2"></i><a href="#demo">Demo</a></li>
+                <li><style type="text/css">  #iconinfo {padding: 10px 10px; float:left;}</style>
+                    <i id="iconinfo" class="icon-user5"></i><a href="home.html#info">About us</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+</header>
+<!-- End Header -->
+
+<!-- Start Preview -->
+
+<div id="preview" class="section portfolio-section fullwidth-portfolio dark-section" style="padding-top:25px; padding-bottom:0; background:#fff;">
+
+    <!-- Title -->
+    <div class="section-title text-center">
+
+        <h2><strong class="accent-color">Preview</strong></h2>
+        <div class="title-icon"><span><i class="icon-brush2"></i></span></div>
+    </div>
+
+    <!-- Video Cap Grid -->
+    <div id="main-photo-preview-grid" class="main-photo-preview-grid" style="width: 60%; position: relative; left: 20%;">
+        <!-- Video -->
+        <div id="newVideoImage" class="video-item">
+            <div class="video-img" style="text-align: center">
+                <img id="preview-in-large" src="imagetemps_copy/1.jpg" />
+            </div>
+        </div>
+    </div>
+
+    <!-- Style Choice   -->
+    <div id="style" class="section clients-section parallax-section dark-section" style="margin-top: 15px; background-image: url(images/preview-bg.png)">
+
+        <!-- Overlay -->
+        <div class="section-overlay"></div>
+        <div class="container">
+            <!-- Multiple Styles -->
+
+            <div class="style-preview clients-logos" data-appeared-items="5" data-navigation="true">
+                <div class="item optionPic"><img src="imagetemps_copy/1.jpg" onclick="updatePreview(this.src)" style="overflow: hidden"/></div>
+                <div class="item optionPic"><img src="imagetemps_copy/2.jpg" onclick="updatePreview(this.src)" style="overflow: hidden"/></div>
+                <div class="item optionPic"><img src="imagetemps_copy/3.jpg" onclick="updatePreview(this.src)" style="overflow: hidden"/></div>
+                <div class="item optionPic"><img src="imagetemps_copy/4.jpg" onclick="updatePreview(this.src)" style="overflow: hidden"/></div>
+                <div class="item optionPic"><img src="imagetemps_copy/5.jpg" onclick="updatePreview(this.src)" style="overflow: hidden"/></div>
+                <div class="item optionPic"><img src="imagetemps_copy/6.jpg" onclick="updatePreview(this.src)" style="overflow: hidden"/></div>
+                <div class="item optionPic"><img src="imagetemps_copy/7.jpg" onclick="updatePreview(this.src)" style="overflow: hidden"/></div>
+                <div class="item optionPic"><img src="imagetemps_copy/8.jpg" onclick="updatePreview(this.src)" style="overflow: hidden"/></div>
+            </div>
+        </div>
+    </div>
+    <!-- End Style Choice -->
+
+    <div id="footer" class="section footer-section light-section" style="padding: 30px 0px 0px 0px;">
+        <a id="goTo" onclick="generateGif()" >Generate Video<i class="icon-arrow-right11"></i></a>
+    </div>
+</div>
+<!-- End Preview -->
+
+
+<!-- Main JS  -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+<script type="text/javascript" src="js/jquery.migrate.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/retina-1.1.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.outside-events.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing-1.3.pack.js"></script>
+<script type="text/javascript" src="js/jquery.parallax.js"></script>
+<script type="text/javascript" src="js/initmap.min.js"></script>
+<script type="text/javascript" src="js/jquery.mb.YTPlayer.js"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="twitter/jquery.tweet.min.js"></script>
+<script type="text/javascript" src="js/jquery.appear.js"></script>
+<script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+<script type="text/javascript" src="js/jquery.nav.js"></script>
+<script type="text/javascript" src="js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="js/counter.js"></script>
+<script type="text/javascript" src="js/imagesloaded.min.js"></script>
+<script type="text/javascript" src="js/smooth-scroll.js"></script>
+<script type="text/javascript" src="js/contact-form.js"></script>
+<script type="text/javascript" src="js/portfolio.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+<script>
+    var currentOption = 1;
+
+    function updatePreview(img) {
+        document.getElementById('preview-in-large').src = img;
+    }
+
+    function generateGif(){
+        var redirectString = "/loading?optionImg=" + currentOption + "&sessionID=" + {{sessionID}};
+        location.href = redirectString;
+    }
+</script>
+
+<!--<script type="text/javascript">-->
+<!--$(".optionPic").height($(".optionPic").style.width);-->
+
+<!--</script>-->
+
+
+</body>
+</html>

@@ -1,0 +1,166 @@
+import './_.jade';
+
+import { ScienceCollabs, Tags, Questions, TagQuestions, UserMetrics } from '../../../imports/api/models.js';
+
+Template.tag.rendered = function() {
+    const toured = Meteor.user().profile.toured.tag;
+    if (!toured) {
+        introJs().setOption('showBullets', false).onchange(function(target) {
+            Meteor.users.update(Meteor.userId(), {
+                $set: {
+                    'profile.toured.tag': true
+                }
+            });
+        }).start();
+    }
+}
+
+Template.tag.onCreated(function() {
+    this._data = {};
+    this.chosen = {};
+});
+
+Template.tag.helpers({
+    init: function(name) {
+        try {
+            Template.instance()._data = Tags.find({ name: name }).fetch()[0] || {};
+
+        } catch (e) {}
+    },
+    data: function() {
+        const _id = Template.instance()._data._id;
+        return Tags.find({ _id: _id }).fetch()[0] || Template.instance()._data;
+    },
+    questions: function() {
+        try {
+            var questions = Tags.find({ _id: Template.instance()._data._id }).fetch()[0].questions;
+            return Questions.find({
+                hash: {
+                    $in: _.map(questions, function(object) {
+                        return object.hash;
+                    })
+                }
+            }, {
+                sort: {
+                    created_at: -1
+                }
+            });
+        } catch (e) {
+            return [];
+        }
+    },
+    tag_question: function() {
+        try {
+            const hashcode = Tags.find({ _id: Template.instance()._data._id }).fetch()[0].tag_question;
+            return TagQuestions.find({ hashcode: hashcode }).fetch()[0];
+        } catch (e) {
+            return {}
+        }
+    },
+    getFeedback: function() {
+        const topic_investigated = Meteor.user().profile.topics_investigated[Template.instance()._data._id];
+        if (_.isUndefined(topic_investigated)) {
+            return '';
+        }
+        const index = topic_investigated.chose;
+        const hashcode = Tags.find({ _id: Template.instance()._data._id }).fetch()[0].tag_question;
+        const tag_question = TagQuestions.find({ hashcode: hashcode }).fetch()[0];
+        if (!tag_question) {
+            return '';
+        }
+        return tag_question.choices[index].feedback;
+        // console.log(this)
+    },
+    chose: function(index) {
+        const topic_investigated = Meteor.user().profile.topics_investigated[Template.instance()._data._id];
+        if (_.isUndefined(topic_investigated)) {
+            return false;
+        }
+        return topic_investigated.chose == index;
+    },
+    answered_tag_question: function() {
+        const topic_investigated = Meteor.user().profile.topics_investigated[Template.instance()._data._id];
+        return topic_investigated;
+        // if (_.isUndefined(topic_investigated)) {
+        //     return false;
+        // }
+        // return true;
+    },
+    isLearnCondition: function() {
+        var participant = Meteor.user().username;
+        if (participant[0] === 'p' && !isNaN(parseInt(participant.substring(1)))) {
+            participant = parseInt(participant.substring(1));
+            if (participant >= 11 && participant <= 15) {
+                return true;
+            }
+        }
+        return false;
+    }
+});
+
+Template.tag.events({
+    'submit form': function(event, instance) {
+        event.preventDefault();
+        const contrib = event.target.contrib.value.trim();
+        const created_at = new Date();
+        const user_metric = UserMetrics.find({ user_id: Meteor.userId() }).fetch()[0];
+        if (!contrib) return;
+        const scID = ScienceCollabs.insert({
+            hashcode: '',
+            text: contrib,
+            writer: { _id: Meteor.userId(), username: Meteor.user().username },
+            created_at: created_at
+        });
+        ScienceCollabs.update(scID, {
+            $set: {
+                hashcode: CryptoJS.MD5(scID).toString()
+            }
+        });
+        Tags.update(instance._data._id, {
+            $push: {
+                contributions: {
+                    hashcode: CryptoJS.MD5(scID).toString(),
+                    text: contrib,
+                    writer: { _id: Meteor.userId(), username: Meteor.user().username },
+                    created_at: created_at
+                }
+            }
+        });
+        UserMetrics.update({ _id: user_metric._id }, {
+            $set: {
+                number_of_science_articles: user_metric.number_of_science_articles + 1
+            }
+        });
+        event.target.contrib.value = '';
+    },
+    'click .answer-tag-question': function(event, instance) {
+        // console.log($(event.target).parent().find('#test2').is(':checked'));
+        const hashcode = Tags.find({ _id: instance._data._id }).fetch()[0].tag_question;
+        const tag_question = TagQuestions.find({ hashcode: hashcode }).fetch()[0]
+        const correct_answer = $(event.target).parent().find('#tag-question-answer-' + tag_question.correct_answer);
+        const topics_investigated = Meteor.user().profile.topics_investigated;
+        if (correct_answer.is(':checked')) {
+            // const answer_text = tag_question.choices[tag_question.correct_answer].text;
+            // $('.tag-question-feedback').text(tag_question.);
+            $('.tag-question-feedback').text(tag_question.choices[tag_question.correct_answer].feedback);
+            $('.tag-question-feedback').css({ 'color': '#4CAF50' });
+            topics_investigated[instance._data._id] = { is_correct: true, chose: tag_question.correct_answer };
+            // topics_investigated[Template.instance()._data._id] = true;
+        } else {
+            var i = 0;
+            for (i = 0; i < tag_question.choices.length; i++) {
+                if ($(event.target).parent().find('#tag-question-answer-' + i).is(':checked')) {
+                    topics_investigated[instance._data._id] = { is_correct: false, chose: i };
+                    break;
+                }
+            }
+            $('.tag-question-feedback').text(tag_question.choices[i].feedback);
+            $('.tag-question-feedback').css({ 'color': '#F44336' });
+        }
+        Meteor.users.update(Meteor.userId(), {
+            $set: {
+                'profile.topics_investigated': topics_investigated
+            }
+        });
+    }
+});
