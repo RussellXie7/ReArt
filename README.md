@@ -2,7 +2,7 @@
 The repository for the SDHacks project Re:Art, including the website design, the back-end server backup, and the algorithm used for automating image processing and style transfer using Convolutional neural network
 
 * Find our full experience demo on Devpost at: https://devpost.com/software/re-art-f92i1b
-* Media Exposure: https://cse.ucsd.edu/about/news/cse-sophomores-take-top-prize-sd-hacks-2016
+* **Media Exposure**: https://cse.ucsd.edu/about/news/cse-sophomores-take-top-prize-sd-hacks-2016
 
 ## Introduction
 Re: Art is an awards-winning web app that implemented convolutional neural network to allow transforming an uploaded video into animated artwork as if it was drawn by artist like Van Gogh. We built this app at SD Hacks 2016, making it the first video style transfer web app on the internet, and showered with prizes including Best of Show, Best Use of AWS, and Most Commercializable Hack. Check out our project on the Devpost to see how it works!
@@ -36,12 +36,15 @@ We set up a comprehensive back-end still image stylization service based on the 
 
 We designed a user-friendly Web App using HTML5, CSS, JavaScript, JQuery to orient the users to upload their videos, choose a style that they prefer and follow the page to finally get the stylized gif. On our home page, we designed as few icons and concise instructions as possible to make it clear to the new users on how to use the app. After uploading a video, the user can choose within a scroll bar several different styles of artworks to merge the video with. Then our app throws the job to the server to complete stylization process. When it’s done, the user is directed to another page where he/she can view the resulting gif and share it to Facebook, Twitter, Google Plus etc.
 
-## Authors
+## Developers Team
 
 * **Wanze (Russell) Xie** - (https://github.com/russellxie7)
 * **Jianhan Xu** - (https://github.com/Jorx11)
 * **Chen Yang** - (https://github.com/azureric)
 * **Zhuojun Chen**
 
-
+## Awards
+* **Best of Show** by SDHacks Committee
+* **Best Use of AWS** by Amazon.com Inc.
+* **Most Commercializable Hack** presented by the UCSD Office of Innovation and Commercialization
 
