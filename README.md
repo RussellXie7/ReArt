@@ -1,4 +1,4 @@
-# ReArt
+# Re:Art
 The repository for the SDHacks project Re:Art, including the website design, the back-end server backup, and the algorithm used for automating image processing and style transfer using Convolutional neural network
 
 * Find our full experience demo on Devpost at: https://devpost.com/software/re-art-f92i1b
