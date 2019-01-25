@@ -8,10 +8,10 @@ The repository for the SDHacks project Re:Art, including the website design, the
 Re: Art is an awards-winning web app that implemented convolutional neural network to allow transforming an uploaded video into animated artwork as if it was drawn by artist like Van Gogh. We built this app at SD Hacks 2016, making it the first video style transfer web app on the internet, and showered with prizes including Best of Show, Best Use of AWS, and Most Commercializable Hack. Check out our project on the Devpost to see how it works!
 
 ### Examples:
-* Source of Style:
+#### Source of Style:
 ![alt text](https://github.com/RussellXie7/ReArt/blob/master/Desktop/vango.jpg?raw=true)
 
-* Output with user-uploaded video:
+#### Output with user-uploaded video:
 ![alt text](https://github.com/RussellXie7/ReArt/blob/master/Desktop/output2.gif?raw=true)
 
 ## Inspiration and Background
