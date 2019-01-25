@@ -9,7 +9,7 @@ Re: Art is an awards-winning web app that implemented convolutional neural netwo
 
 ### Examples:
 #### Source of Style:
-![alt text](https://github.com/RussellXie7/ReArt/blob/master/Desktop/vango2.jpg?raw=true)
+![alt text](https://github.com/RussellXie7/ReArt/blob/master/Desktop/vango.jpg?raw=true)
 
 #### Output with user-uploaded video:
 ![alt text](https://github.com/RussellXie7/ReArt/blob/master/Desktop/output2.gif?raw=true)
