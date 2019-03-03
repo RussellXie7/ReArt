@@ -1,5 +1,5 @@
 # Re:Art
-The repository for the SDHacks project Re:Art, including the website design, the back-end server backup, and the algorithm used for automating image processing and style transfer using Convolutional neural network
+This is the repository for our SDHacks project Re:Art, including the website design, the back-end server backup, and the algorithm used for automating image processing and style transfer using Convolutional Neural Network
 
 * **Devpost**: https://devpost.com/software/re-art-f92i1b
 * **Media Exposure**: https://cse.ucsd.edu/about/news/cse-sophomores-take-top-prize-sd-hacks-2016
@@ -15,7 +15,7 @@ Re: Art is an awards-winning web app that implemented convolutional neural netwo
 ![alt text](https://github.com/RussellXie7/ReArt/blob/master/Desktop/output2.gif?raw=true)
 
 ## Inspiration and Background
-As of time we were developing this webapp, Prisma had its debut and won a lot of popularity with its style transfer filter for images, but its functionalities are only limited to processing images instead of videos at that time (09/2016). We want to make the video artistic as well, so we created this project Re:Art. Interestingly, 2 weeks after our application was accomplished in the Hackathon, Prisma released the video style transfer feature for their application as well.
+At the time when we were developing this webapp, Prisma just had its debut and won a lot of popularity with its style transfer filter for images, but its functionalities are only limited to processing images instead of videos at that time (09/2016). We, therefore, wanted to make the video artistic as well, so we created this project Re:Art. Interestingly, 2 weeks after our application was published in the Hackathon, Prisma released the video style transfer feature for their application as well.
 
 ## Built With
 
