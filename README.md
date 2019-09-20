@@ -15,7 +15,7 @@ Re: Art is an awards-winning web app that implemented convolutional neural netwo
 ![alt text](https://github.com/RussellXie7/ReArt/blob/master/Desktop/output2.gif?raw=true)
 
 ## Inspiration and Background
-When we were developing this webapp, Prisma just had its debut and won a lot of popularity with its style transfer filter for images, but its functionalities are only limited to processing images instead of videos at that time (09/2016). We, therefore, wanted to make the video artistic as well, so we created this project Re:Art. Interestingly enough, couple weeks after our application was published in the SD acks, Prisma released the video style transfer feature for their application as well.
+When we were developing this webapp, Prisma just had its debut and won a lot of popularity with its style transfer filter for images, but its functionalities are only limited to processing images instead of videos at that time (09/2016). We, therefore, wanted to make the video artistic as well, so we created this project Re:Art. Interestingly enough, couple weeks after our application was published in the SD Hacks, Prisma released the video style transfer feature for their application as well.
 
 ## Built With
 
